@@ -9,7 +9,7 @@ import Home from './components/Home';
 
 export type RootStackParamList = {
   Home: undefined;
-  Details: { itemId: number };
+  Details: { itemId?: number };
   Profile: { name: string };
 };
 
