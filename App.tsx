@@ -10,7 +10,7 @@ import Home from './components/Home';
 export type RootStackParamList = {
   Home: undefined;
   Details: { itemId?: number };
-  Profile: { name: string };
+  Profile: { name?: string };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
